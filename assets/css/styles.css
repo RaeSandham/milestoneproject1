@@ -1,61 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
-body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    line-height: 1.6;
-}
+/* --------------------------- HEADER ------------------- */
 
-.container {
-    width: 80%;
-    margin: auto;
+header img {
+    height: 100px;
+    margin-top: px;
 }
 
 header {
-    background: #333;
-    color: #fff;
-    padding: 15px 0;
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
+    background-color: rgb(154, 81, 179);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 rgb(53, 1, 45);
 }
 
-header h1 {
-    font-size: 2em;
-}
 
-nav {
-    background: #666;
-    color: #fff;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
+header * {
     display: inline;
-    margin-right: 20px;
 }
 
-nav ul li a {
+header li {
+    margin: 50px;
+}
+
+header li a {
+    color: rgb(254, 254, 254);
     text-decoration: none;
-    color: #fff;
 }
 
-nav ul li a:hover {
-    color: #ccc;
-}
 
-main {
-    padding: 20px 0;
-}
+/* --------------------------- BODY ------------------- */
 
-footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-}
 
-footer p {
-    margin: 0;
+body {
+    height: 125vh;
+    background-image: url();
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 80px;
+    padding: 30px;
 }
