@@ -3,6 +3,32 @@
 ## Description
 This project is a webpage for a rug making company, featuring a home page, about page, contact page, and gallery page. It's purpose is to encourage visitors to interact and possibly purchase our services. I'm hoping for the page to be catchy and simple to use.
 
+
+## User Experience (UX)
+
+
+# User Story
+As a potential customer of Rug Smugglers, I want to easily navigate through the website's gallery page so that I can view high-quality images of the available rugs and make an informed decision about which rug to purchase or see the create my own custom rug by sending an enquiry form and send a photo of what I'd want turned into a rug.
+
+
+### Design Principles
+My design focuses on simplicity, clarity, and ease of navigation to ensure a positive user experience. I aim to create an intuitive interface that allows users to find information easily and interact with the website effortlessly.
+
+### Visual Design
+I've chosen a clean and modern design aesthetic, with a neutral color palette to complement the company's branding. Large, high-quality images are used throughout the website to showcase the beauty and craftsmanship of the company's rugs.
+
+### Navigation
+The navigation menu is prominently placed at the top of each page, providing easy access to all sections of the website. We've ensured consistent navigation elements and layouts across pages to help users feel comfortable and confident as they explore the site.
+
+### Accessibility
+I've added code so that the website is accesible for all devices and screen sizes, automatically adjusting to suit the users need.
+
+
+### Testing
+We've conducted thorough testing of our website across multiple browsers and devices to identify and address any usability issues or bugs. We've also gathered feedback from real users to validate our design decisions and ensure that the website meets their needs and expectations.
+
+
+
 ## Features
 - Home page showcasing a small insight on the company's products and branding.
 - About page providing information about the company's history and mission - what we aim to do.
@@ -36,6 +62,3 @@ This project is a webpage for a rug making company, featuring a home page, about
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
-
-## Additional Notes
-Feel free to customize the structure and content of this README to suit your project's specific needs and preferences.
