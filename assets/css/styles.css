@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
 
-/* Reset CSS */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+
   
   /* Navbar styling */
   .navbar {
@@ -13,7 +8,7 @@
     overflow: hidden;
     font-family: 'Rubik Doodle Shadow';
     text-transform: uppercase;
-    font-size: large;
+    font-size: 20px;
   }
   
   .navbar .logo {
@@ -91,3 +86,4 @@
   
 
 /* --------------------------- BODY ------------------- */
+
