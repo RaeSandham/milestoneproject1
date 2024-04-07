@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap')
 ;
 
-/* Reset default browser styles */
 body, h1, p, ul, li {
   margin: 0;
   padding: 0;
@@ -29,9 +28,10 @@ nav {
   font-family: Arial, Helvetica, sans-serif;
     overflow: hidden;
     background-color: #1406499c;
-    position: sticky; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
+    position: sticky;
+    top: 0;
+    width: 100%;
+    text-transform: uppercase;
 }
 
 .navbar a {
@@ -41,21 +41,22 @@ nav {
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
+    transition: color 0.3s;
 }
 
 .navbar a:hover {
     background-color: #ba25f0af;
-    color: black;
+    color: rgb(55, 10, 79);
 }
 
 .active {
-    background-color: #4f4caf;
+  background-color: #ba25f0af;
     color: white;
 }
 
 .content {
     padding: 20px;
-    margin-top: 50px; /* Add space to the top to prevent content from being hidden behind the navbar */
+    margin-top: 50px;
 }
 
 
@@ -81,12 +82,37 @@ main {
   padding: 20px;
 }
 
-/* Footer styles */
-footer {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #321c80cb;
-  color:#140a27
+
+.carousel-item {
+  height: 300px;
+  width: 300px;
 }
+
+
+
+
+/* Footer styles */
+/* Style for footer */
+footer {
+  background-color: #140649e2;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.social-icons a {
+  color: #ffffff; /* Icon color */
+  font-size: 20px; /* Adjust icon size */
+  margin: 40px; /* Adjust spacing between icons */
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #ba25f0af;
+}
+
+
+
 
 
 /* Responsive styles */
