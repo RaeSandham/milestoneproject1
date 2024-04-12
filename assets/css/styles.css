@@ -83,7 +83,7 @@ main {
 }
 
 .container {
-  max-width: 800px;
+  max-width: auto;
   margin: 0 auto;
   padding: 20px;
   border: 1px solid #ccc;
@@ -100,6 +100,14 @@ label {
 }
 
 input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="text"],
 textarea {
   width: 100%;
   padding: 10px;
@@ -125,19 +133,27 @@ input[type="file"] {
 }
 
 
+/* gallery page styling */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Adjust the number of columns as needed */
+  grid-gap: 20px;
+}
 
+.gallery a {
+  display: block;
+  text-decoration: none;
+}
 
-
-.carousel-item {
-  height: 300px;
-  width: 300px;
+.gallery img {
+  width: 100%;
+  height: auto;
 }
 
 
 
 
 /* Footer styles */
-/* Style for footer */
 footer {
   background-color: #140649e2;
   padding: 10px 0;
@@ -145,9 +161,9 @@ footer {
 }
 
 .social-icons a {
-  color: #ffffff; /* Icon color */
-  font-size: 20px; /* Adjust icon size */
-  margin: 40px; /* Adjust spacing between icons */
+  color: #ffffff;
+  font-size: 20px;
+  margin: 40px;
   text-decoration: none;
   transition: color 0.3s;
 }
