@@ -9,7 +9,7 @@ body, h1, p, ul, li {
 
 /* Navbar styles */
 nav {
-  background-color: #0b0521cb;
+  background-color: #2A1659;
 }
 
 .container {
@@ -27,7 +27,7 @@ nav {
 .navbar {
   font-family: Arial, Helvetica, sans-serif;
     overflow: hidden;
-    background-color: #1406499c;
+    background-color: #2A1659;
     position: sticky;
     top: 0;
     width: 100%;
@@ -37,7 +37,7 @@ nav {
 .navbar a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: #d693b4;
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
@@ -45,13 +45,13 @@ nav {
 }
 
 .navbar a:hover {
-    background-color: #ba25f0af;
+    background-color: #78BEDE;
     color: rgb(55, 10, 79);
 }
 
 .active {
-  background-color: #ba25f0af;
-    color: white;
+  background-color: #664AD2;
+    color: #D693B5;
 }
 
 .content {
@@ -87,6 +87,7 @@ main {
   margin: 0 auto;
   padding: 20px;
   border: 1px solid #ccc;
+  background-color: #78BEDE;
   border-radius: 5px;
 }
 
@@ -117,16 +118,13 @@ textarea {
 
 button {
   padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
+  background-color: #2A1659;
+  color: #D693B5;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 
-button:hover {
-  background-color: #0056b3;
-}
 
 input[type="file"] {
   margin-top: 5px;
@@ -136,7 +134,7 @@ input[type="file"] {
 /* gallery page styling */
 .gallery {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Adjust the number of columns as needed */
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 20px;
 }
 
@@ -150,18 +148,15 @@ input[type="file"] {
   height: auto;
 }
 
-
-
-
 /* Footer styles */
 footer {
-  background-color: #140649e2;
+  background-color: #2A1659;
   padding: 10px 0;
   text-align: center;
 }
 
 .social-icons a {
-  color: #ffffff;
+  color: #D693B5;
   font-size: 20px;
   margin: 40px;
   text-decoration: none;
@@ -205,6 +200,16 @@ footer {
       font-size: 1.2rem;
   }
 
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+input[type="text"], textarea {
+    flex: 1;
+}
+
+  
   header h1 {
       font-size: 2rem;
   }
