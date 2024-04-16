@@ -3,6 +3,12 @@
 ## Description
 This project is a webpage for a rug making company, featuring a home page, about page, contact page, and gallery page. It's purpose is to encourage visitors to interact and possibly purchase our services. I'm hoping for the page to be catchy and simple to use.
 
+# Colours
+
+<img src="assets/images/readmeimages/colorpallete.png">
+
+
+
 
 ## User Experience (UX)
 
@@ -70,6 +76,9 @@ I've tested our website across multiple browsers and devices using developer too
 - Visit the about page to learn more about the company's history and mission.
 - Fill out the contact form on the contact page to reach out to the company for custom orders and enquiries.
 - Explore the gallery page to view images of the company's rugs.
+- View the FAQ page to see helpful tips about caring for your rug and any other frequently asked questions.
+
+
 
 ## Contributing
 - Fork the repository.
@@ -78,4 +87,5 @@ I've tested our website across multiple browsers and devices using developer too
 
 ## Credits
 - [Bootstrap](https://getbootstrap.com/) - For the CSS framework.
+- Canva
 - Images are taken by me and my partner - Ol Dirty Lens

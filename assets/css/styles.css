@@ -1,224 +1,104 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap')
-;
+/* Color palette */
 
-body, h1, p, ul, li {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
+
+
+body {
+  background-color: #fff;
 }
 
-/* Navbar styles */
-nav {
-  background-color: #2A1659;
+h1 {
+  color: #000000; 
 }
 
-.container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-   }
-
-.logo {
-  font-family: 'Rubik Mono One';
-  font-size: 50px;
+h2 {
+  color:#000000;
 }
 
-.navbar {
-  font-family: Arial, Helvetica, sans-serif;
-    overflow: hidden;
-    background-color: #2A1659;
-    position: sticky;
-    top: 0;
-    width: 100%;
-    text-transform: uppercase;
-}
-
-.navbar a {
-    float: left;
-    display: block;
-    color: #d693b4;
-    text-align: center;
-    padding: 14px 20px;
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-.navbar a:hover {
-    background-color: #78BEDE;
-    color: rgb(55, 10, 79);
-}
-
-.active {
-  background-color: #664AD2;
-    color: #D693B5;
-}
-
-.content {
-    padding: 20px;
-    margin-top: 50px;
+a {
+  color: #fff;
 }
 
 
 
-/* Header styles */
-header {
-  background: url('../images/Hero1.jpg') no-repeat center center;
-  padding: 100px 0;
-  background-size: cover;
-  width: 100%;
-  height: 400px;
+/* HERO IMAGE */
+.hero-container {
+  max-width: 2000px; 
+  min-width: 200px;
+  margin: 0 auto; 
+  overflow: hidden; 
+}
+
+.hero-container img {
+  width: 100%; 
+  height: auto; 
+  display: block; 
+  max-width: 2000px;
+  min-width: 200px;
+  animation-name: hero-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes hero-zoom {
+  from {
+      transform: scale(1.1);
   }
 
-header h1 {
-  font-size: 3rem;
+  to {
+      transform: scale(1.5);
+  }
 }
 
 
+/* NAV BAR */
 
-
-/* Main content styles */
-main {
-  padding: 20px;
-}
-
-.container {
-  max-width: auto;
-  margin: 0 auto;
-  padding: 20px;
-  border: 1px solid #ccc;
-  background-color: #78BEDE;
-  border-radius: 5px;
-}
-
-.form-group {
-  margin-bottom: 20px;
-}
-
-label {
-  display: block;
-  font-weight: bold;
-}
-
-input[type="email"],
-textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-input[type="text"],
-textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-button {
+.navbar {
+  background-color: #333;
+  color: #fff;
   padding: 10px 20px;
-  background-color: #2A1659;
-  color: #D693B5;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
 }
 
-
-input[type="file"] {
-  margin-top: 5px;
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Display the links horizontally */
 }
 
-
-/* gallery page styling */
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 20px;
+.nav-links li {
+  margin-right: 20px; /* Add spacing between the links */
 }
 
-.gallery a {
-  display: block;
+.nav-links a {
   text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
 }
 
-.gallery img {
-  width: 100%;
-  height: auto;
+.nav-links a:hover {
+  background-color: #555;
 }
 
-/* Footer styles */
-footer {
-  background-color: #2A1659;
-  padding: 10px 0;
-  text-align: center;
+.nav-links li.active a {
+  background-color: #b52ec14b;
+}
+
+
+
+.btn {
+  background-color: #555;
+  color: #fff;
+}
+
+
+
+
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 10px;
 }
 
 .social-icons a {
-  color: #D693B5;
-  font-size: 20px;
-  margin: 40px;
-  text-decoration: none;
-  transition: color 0.3s;
-}
-
-.social-icons a:hover {
-  color: #ba25f0af;
-}
-
-
-
-
-
-/* Responsive styles */
-
-/* For tablets and smaller screens */
-@media screen and (max-width: 768px) {
-  .container {
-      flex-direction: column;
-      text-align: center;
-  }
-
-  .nav-links {
-      margin-top: 20px;
-  }
-
-  .nav-links li {
-      display: block;
-      margin-bottom: 10px;
-  }
-
-  header {
-      padding: 80px 0;
-  }
-}
-
-/* For mobile phones */
-@media screen and (max-width: 480px) {
-  .logo {
-      font-size: 1.2rem;
-  }
-
-  .form-container {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-}
-input[type="text"], textarea {
-    flex: 1;
-}
-
-  
-  header h1 {
-      font-size: 2rem;
-  }
-
-  main {
-      padding: 10px;
-  }
-
-  footer {
-      padding: 10px 0;
-  }
-}
+  color:aquamarine; }
