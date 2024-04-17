@@ -145,6 +145,5 @@ I have added a gallery page so that potential customers can see the work that we
 - Submit a pull request detailing the changes you've made.
 
 ## Credits
-- [Bootstrap](https://getbootstrap.com/) - For the CSS framework.
-- Canva
+
 - Images are taken by me and my partner - Ol Dirty Lens
