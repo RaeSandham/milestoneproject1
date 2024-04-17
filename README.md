@@ -10,7 +10,16 @@ This project is a webpage for a rug making company, featuring a home page, about
 
 - [Colour Pallete](./assets/readmeimages/colorpallete.png)
 
+## Typography
+Used a website called [Google Fonts](https://fonts.google.com/) to select a font which is simple and stands out.
 
+
+
+* [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue?query=neu)
+
+I chose this font because it's clear and bold. It's a sans-serif font which I think is ideal for a bold navbar.
+
+<br><br>
 
 
 ## User Experience (UX)
@@ -18,24 +27,49 @@ This project is a webpage for a rug making company, featuring a home page, about
 
 # User Story
 
-As a **User**, I would like **to be able to display images of rugs that I have already made**, so that **I can entice potential customers to contact us and buy a custom rug**
+As a **User**, I would like **to be able to see some examples of rugs that have already been made**, so that **I can decide whether i want to contact them and discuss buying a custom rug**
+
+
+* Find out about who is behind rug smugglers.
+
+| Feature     | Action      | Expected Result | Actual Result |
+| ----------- | ----------- |---------------- | ------------- |
+| About Me Section | Click `About Me` on nav bar | To find an about me section beneath Hero Image | Works as expected |
+<br><br>
+
+* To see examples of previous work .
+
+| Feature     | Action      | Expected Result | Actual Result |
+| ----------- | ----------- |---------------- | ------------- |
+| Gallery Page | Scroll down through images | To see photos of previous rugs made | Works as expected |
+
+<br><br>
+* Be able to get in contact us to order/create your own rug.
+
+| Feature     | Action      | Expected Result | Actual Result |
+| ----------- | ----------- |---------------- | ------------- |
+| Contact Page | Fill in Form | Form to send information enquiring about a rug | Works as expected |
+| Social Media Links | Click links in Footer | To be redirected to our socials to view different platforms | Works as expected |
+<br><br>
+* Easily navigate around the site.
+
+| Feature     | Action      | Expected Result | Actual Result |
+| ----------- | ----------- |---------------- | ------------- |
+| Navbar/Header | fixed up | Navbar/Header to be displayed and all links to redirect correctly | Works as expected |
+<br><br>
+* Negative Testing
+
+| Feature     | Action      | Expected Result | Actual Result |
+| ----------- | ----------- |---------------- | ------------- |
+| re-direct from submit button | attempted to fix | Should redirect to thankyou.html | Does not work as expected |
+<br><br>
 
 ## Owners Goals
-* Show off photos of rugs available for sale aswell as previous customer orders.
-* Let potential clients see what we are capable of - let them see the quality of our work.
-* Provide potential clients with a way to enquire about services provided by using a contact form.
-* Simple, clear and bold layout with responsive features to allow site viewing from any device.
-* For visitors to be able to easily navigate throughout the site to find content and get in touch and read some faqs and how to look after your rug once purchased.
-<br><br>
 
-## Visitor Goals   
-* Find out information about the people behind the name.
-* See previous work and what others think of the services.
-* Be able to get in contact with ideas and attach a photo as example of what they want made.
-* Easily navigate around the site.
-* View the site on any device at hand.
-<br><br>
-<br>
+
+As an **Owner**, I would like **to be able to display images of rugs that I have already made**, so that **I can entice potential customers to contact us and buy a custom rug**
+
+
 
 ### Wire Frames
 
@@ -70,6 +104,11 @@ I've added code so that the website is accesible for all devices and screen size
 I've tested our website across multiple browsers and devices using developer tools to identify and address any usability issues or bugs. I've also gathered feedback from real users (friends and family) to validate our design decisions and ensure that the website meets their needs and expectations.
 
 I have added a gallery page so that potential customers can see the work that we have already done.
+
+
+- [Checker](./assets/readmeimages/validater.png)
+
+- [CSS Validation](./assets/readmeimages/cssvalidation.png)
 
 ## Features
 - Home page showing a preview on the company's products and branding.
