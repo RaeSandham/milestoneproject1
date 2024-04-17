@@ -1,65 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-        <script src="https://kit.fontawesome.com/f688bc4970.js" crossorigin="anonymous"></script>
-        <title>Rug Smugglers</title>
-        <link rel="stylesheet" href="assets/css/styles.css" type="text/css">
-    </head>
-<body>
-    <nav>
-        <div class="navbar" id="navbar">
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="gallery.html">Gallery</a>
-            <a href="faq.html">FAQ</a>
-            <a href="contact.html" class="active">Contact</a>
-        </div>
-    </nav>
-    <header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+<!--FONT AWESOME-->
+<script src="https://kit.fontawesome.com/f688bc4970.js" crossorigin="anonymous"></script>
+
+    <link href="assets/css/styles.css" rel="stylesheet">
+    <title>Rug Smugglers</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+              <div class="header-right">
+              <a href="index2.html">Home</a>
+              <a href="about.html">About</a>
+              <a href="gallery.html">Gallery</a>
+              <a class="active" href="contact.html">Contact</a>
+            </div>
+          </div>
+    <div class="hero">
+        <img src="assets/images/Hero1.jpg" alt="Hero Image">
+    </div>
     </header>
 
+    <!-- Contact Section -->
     <main>
-        <h2> Contact Us Here:</h2>
+        <h1>Get in touch!</h1>
         <div class="container">
-            
-            <form action="#" method="post" enctype="multipart/form-data">
-                <div class="form-group">
-                    <label for="full-name">Full Name:</label>
-                    <input type="text" id="full-name" name="full-name" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email address:</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div class="form-group">
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" rows="4" required></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="photo">Attach a photo (optional):</label>
-                    <input type="file" id="photo" name="photo">
-                </div>
-                <button type="submit">Submit</button>
-            </form>
+            <form action="/action_page.php">
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+          
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+                    
+            <label for="message">Message:</label>
+            <textarea id="text" name="message" placeholder="Tell us your idea.." style="height:200px"></textarea><br><br>
+          
+            <label for="image-upload" class="custom-upload-button">Upload Image</label>
+<input type="file" id="image-upload" name="image-upload" class="file-input">
+<span class="file-name"></span><br><br>
+            <input type="submit" value="Submit"><br><br></form>
         </div>
-
-        
     </main>
-
-    <footer>
+    
+    <footer class="footer">
         <div class="social-icons">
-            <a href="https://www.etsy.com/uk/shop/RugSmugglers" target="_blank"><i class="fab fa-etsy"></i></a>
-            <a href="https://www.instagram.com/rugsmugglers" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://www.youtube.com/@rugsmugglers" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.etsy.com/uk/shop/RugSmugglers" target="_blank" class="social-icon"><i class="fab fa-etsy"></i></a>
+            <a href="https://www.instagram.com/rugsmugglers" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.youtube.com/@rugsmugglers" target="_blank" class="social-icon"><i class="fab fa-youtube"></i></a>
+    
         </div>
     </footer>
+    
+
+    <!--  jQuery, Popper.js, and Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    
+
 </body>
 </html>
