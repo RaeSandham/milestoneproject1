@@ -1,12 +1,14 @@
 # Rug Smugglers Company Website
 
+[**__Link to deployed site__**](https://raesandham.github.io/milestoneproject1/)
+
 ## Description
 This project is a webpage for a rug making company, featuring a home page, about page, contact page, and gallery page. It's purpose is to encourage visitors to interact and possibly purchase our services. I'm hoping for the page to be catchy and simple to use.
 
 # Colours
 
 
-[colourpallete](./assets/readmeimages/colorpallete.png)
+- [Colour Pallete](./assets/readmeimages/colorpallete.png)
 
 
 
@@ -15,8 +17,8 @@ This project is a webpage for a rug making company, featuring a home page, about
 
 
 # User Story
-As a potential customer of Rug Smugglers, I want to easily navigate through the website's gallery page so that I can view high-quality images of the available rugs and make an informed decision about which rug to purchase or see the create my own custom rug by sending an enquiry form and send a photo of what I'd want turned into a rug.
 
+As a **User**, I would like **to be able to display images of rugs that I have already made**, so that **I can entice potential customers to contact us and buy a custom rug**
 
 ## Owners Goals
 * Show off photos of rugs available for sale aswell as previous customer orders.
@@ -37,13 +39,15 @@ As a potential customer of Rug Smugglers, I want to easily navigate through the 
 
 ### Wire Frames
 
-[about](./assets/wireframes/about.png)
+##### Wire frames were created using balsamiq
 
-[contact](./assets/wireframes/contact.png)
+- [About](./assets/wireframes/about.png)
 
-[gallery](./assets/wireframes/gallery.png)
+- [Contact](./assets/wireframes/contact.png)
 
-[homepage](./assets/wireframes/homepage.png)
+- [Gallery](./assets/wireframes/gallery.png)
+
+- [Homepage](./assets/wireframes/homepage.png)
 
 ### Design Principles
 My design focuses on bold, eye catching colours, and ease of navigation to ensure a positive user experience. I am hoping to create a page that is enticing and informative also being very simple and clear to use for anyones degree of computer knowledge.
@@ -54,14 +58,18 @@ I've chosen a bold and colourful design aesthetic, with a reoccuring colour pale
 ### Navigation
 The navigation menu is locked at the top of each page, providing easy access to all sections of the website. I've ensured consistent navigation elements and layouts across pages to help users feel comfortable and confident as they explore the site. With each page being linked to the other for easy navigation and consistency.
 
+- [Navbar](./assets/readmeimages/navbar.png)
+
 ### Accessibility
 I've added code so that the website is accesible for all devices and screen sizes, automatically adjusting to suit the users need.
+
+- [Responsive](./assets/readmeimages/responsive.png)
 
 
 ### Testing
 I've tested our website across multiple browsers and devices using developer tools to identify and address any usability issues or bugs. I've also gathered feedback from real users (friends and family) to validate our design decisions and ensure that the website meets their needs and expectations.
 
-
+I have added a gallery page so that potential customers can see the work that we have already done.
 
 ## Features
 - Home page showing a preview on the company's products and branding.
