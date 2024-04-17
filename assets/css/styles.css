@@ -14,7 +14,7 @@
   font-size: 20px;
   overflow: hidden;
   background-color: #2a1659;
-  padding: 20px 10px;
+  padding: 10px 10px;
 }
 
 
@@ -22,7 +22,7 @@
   float: left;
   color: #78bede;
   text-align: center;
-  padding: 25px;
+  padding: 20px;
   text-decoration: none;
   border-radius: 40px;
 }
@@ -194,7 +194,6 @@ input[type="file"] {
 .social-icon:hover {
   color: #664ad2; 
 }
-
 
 
 
