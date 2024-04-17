@@ -165,6 +165,16 @@ input[type="file"] {
   width: 100%;
 }
 
+/* THANK YOU PAGE */
+.smallpage {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.smallpage-content {
+  flex-grow: 10;
+}
 
 /*FOOTER*/
 
