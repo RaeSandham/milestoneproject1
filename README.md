@@ -5,7 +5,8 @@ This project is a webpage for a rug making company, featuring a home page, about
 
 # Colours
 
-<img src="assets/images/readmeimages/colorpallete.png">
+
+[colourpallete](./assets/readmeimages/colorpallete.png)
 
 
 
@@ -34,7 +35,15 @@ As a potential customer of Rug Smugglers, I want to easily navigate through the 
 <br><br>
 <br>
 
+### Wire Frames
 
+[about](./assets/wireframes/about.png)
+
+[contact](./assets/wireframes/contact.png)
+
+[gallery](./assets/wireframes/gallery.png)
+
+[homepage](./assets/wireframes/homepage.png)
 
 ### Design Principles
 My design focuses on bold, eye catching colours, and ease of navigation to ensure a positive user experience. I am hoping to create a page that is enticing and informative also being very simple and clear to use for anyones degree of computer knowledge.
@@ -65,6 +74,9 @@ I've tested our website across multiple browsers and devices using developer too
 - HTML
 - CSS
 - JavaScript
+- VSS
+- git
+- bootstrap
 
 ## Installation
 1. Clone the repository to your local machine.
